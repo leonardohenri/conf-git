@@ -15,3 +15,7 @@ git remote add origin git@github.com:CAMINHO-COPIADO-DO-GITHUB-SSH
 git add .
 git commit -m 'MENSAGEM'
 git push origin master
+
+#erros git
+ERRO: As atualizações foram rejeitadas porque a ponta de sua ramificação atual está atrás de sua contraparte remota
+solução: git pull --rebase origin master
